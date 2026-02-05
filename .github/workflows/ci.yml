@@ -21,7 +21,6 @@ jobs:
 
       - name: instalar dependencias
         run: npm install
-        run: npm install -D vitest
 
       - name: ejecutar tests
         run: npm run test:run
