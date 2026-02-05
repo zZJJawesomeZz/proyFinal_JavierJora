@@ -20,7 +20,7 @@ jobs:
           node-version: 18
 
       - name: instalar dependencias
-        run: npm install
+        run: npm ci
 
       - name: ejecutar tests
         run: npm run test:run
